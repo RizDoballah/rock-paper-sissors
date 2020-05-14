@@ -29,7 +29,7 @@ header > h1 {
   text-align: center;
 }
 .badge {
-  background-color: red;
+  background-color: #e60a0a;
   font-size: 14px;
 }
 #user-label {
