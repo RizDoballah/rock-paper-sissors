@@ -2,10 +2,36 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>Rock-paper-sissors</title>
+    <title>Rock-paper-sicssors</title>
   </head>
   <body>
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+    <main>
+      <div class="score-board">
+        <div id="user-label" class="badge">user</div>
+          <div id="computer-label" class="badge">comp</div>
+          <span id="user-score">0</span>:<span id="computer-score">0</span>
+      </div>
+      <div class="result">
+        Paper covers rock. you win!
+      </div>
+      <div class="choices">
+        <div class="choice">
+          <img src="image/rock.png" alt="rock icon">
+        </div>
+        <div class="choice">
+          <img src="image/paper.png" alt="paper icon">
+        </div>
+        <div class="choice">
+          <img src="image/scissors.png" alt="scissirs icon">
+        </div>
+
+      </div>
+    </main>
   <script src="js/script.js" charset="utf-8"></script>
   </body>
 </html>
